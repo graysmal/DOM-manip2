@@ -18,6 +18,7 @@ function addItem() {
     new_item_li.append(new_item_span, new_item_btn);
     
     new_item_span.textContent = new_item_text;
+    new_item_span.classList = "list_item";
     new_item_btn.textContent = "Delete";
 
     new_item_btn.addEventListener('click', function() {

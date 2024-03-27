@@ -1,6 +1,12 @@
 li {
     margin-bottom: 10px;
+    display: flex;
+    
   }
+
+.list_item {
+  width: 75px;
+}
 
 li button {
     font-size: 12px;
